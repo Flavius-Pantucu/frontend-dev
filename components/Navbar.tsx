@@ -22,6 +22,7 @@ const Navbar = ({ locale }: { locale: string }) => {
         <Link href={`/${locale}/`}>{t("home")}</Link>
         <Link href={`/${locale}/product/1`}>{t("product")}</Link>
         <Link href={`/${locale}/joke`}>{t("joke")}</Link>
+        <Link href={`/${locale}/blog/1`}>{t("blog")}</Link>
       </div>
 
       <label className="inline-flex items-center cursor-pointer z-20">

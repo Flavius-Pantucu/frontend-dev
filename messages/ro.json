@@ -1,11 +1,13 @@
 {
   "NavbarLinks": {
-    "home": "Acasa",
+    "home": "Acasa (SSG)",
     "homeTitle": "Pagina principala",
-    "product": "Produs",
+    "product": "Produs (DYNAMIC)",
     "productTitle": "Pagina produs",
-    "joke": "Gluma random",
+    "joke": "Gluma random (SSR)",
     "jokeTitle": "Pagina gluma random",
+    "blog": "Blog (ISR)",
+    "blogTitle": "Pagina de blog",
     "switchLanguage": "Schimba limba"
 
   },
@@ -18,5 +20,8 @@
   },
   "JokePage": {
     "title": "Gluma random"
+  },
+  "BlogPage": {
+    "title": "Blog"
   }
 }

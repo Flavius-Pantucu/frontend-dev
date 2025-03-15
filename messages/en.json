@@ -1,11 +1,13 @@
 {
   "NavbarLinks": {
-    "home": "Home",
+    "home": "Home (SSG)",
     "homeTitle": "Home page",
-    "product": "Product",
+    "product": "Product (DYNAMIC)",
     "productTitle": "Product page",
-    "joke": "Random Joke",
+    "joke": "Random Joke (SSR)",
     "jokeTitle": "Random joke page",
+    "blog": "Blog (ISR)",
+    "blogTitle": "Blog page",
     "switchLanguage": "Change language"
 
   },
@@ -18,5 +20,8 @@
   },
   "JokePage": {
     "title": "Random Joke"
+  },
+  "BlogPage": {
+    "title": "Blog"
   }
 }

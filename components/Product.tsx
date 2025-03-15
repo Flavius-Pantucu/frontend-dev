@@ -1,8 +1,21 @@
 import Image from "next/image";
 
-const Product = async ({ productId }: { productId: string }) => {
+interface Product {
+  id: number;
+  category: string;
+  title: string;
+  rating: {
+    rate: number;
+    count: number;
+  };
+  description: string;
+  price: number;
+  image: string;
+}
+
+const ProductPage = async ({ productId }: { productId: string }) => {
   const data = await fetch(`https://fakestoreapi.com/products/${productId}`);
-  const product = await data.json();
+  const product: Product = await data.json();
 
   return (
     <div className="w-[512px] min-h-[768px] bg-white rounded-lg z-20 p-10">
@@ -53,4 +66,4 @@ const Product = async ({ productId }: { productId: string }) => {
   );
 };
 
-export default Product;
+export default ProductPage;
