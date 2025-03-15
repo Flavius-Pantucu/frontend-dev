@@ -1,0 +1,22 @@
+{
+  "NavbarLinks": {
+    "home": "Home",
+    "homeTitle": "Home page",
+    "product": "Product",
+    "productTitle": "Product page",
+    "joke": "Random Joke",
+    "jokeTitle": "Random joke page",
+    "switchLanguage": "Change language"
+
+  },
+  "HomePage": {
+    "title": "Landing page",
+    "description": "Welcome to our website, where quality meets convenience! Discover a curated collection of premium products designed to enhance your lifestyle. Whether you're looking for the latest trends, must-have essentials, or unique finds, we've got something for everyone. Shop with confidence knowing that we prioritize top-notch quality, fast shipping, and exceptional customer service. With secure payments and hassle-free returns, your shopping experience is seamless and enjoyable. Explore our store today and treat yourself to something special. Your perfect purchase is just a click away!"
+  },
+  "ProductPage": {
+    "title": "Product"
+  },
+  "RandomJokePage": {
+    "title": "Random Joke"
+  }
+}
