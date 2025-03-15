@@ -20,8 +20,8 @@ const Navbar = ({ locale }: { locale: string }) => {
     <div className="w-full flex justify-between border-b py-4 ">
       <div className="flex gap-4 items-center text-lg z-20">
         <Link href={`/${locale}/`}>{t("home")}</Link>
-        <Link href={`/${locale}/about`}>{t("about")}</Link>
-        <Link href={`/${locale}/about/profile`}>{t("profile")}</Link>
+        <Link href={`/${locale}/product/1`}>{t("product")}</Link>
+        <Link href={`/${locale}/joke`}>{t("joke")}</Link>
       </div>
 
       <label className="inline-flex items-center cursor-pointer z-20">

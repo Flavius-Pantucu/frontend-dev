@@ -2,10 +2,10 @@
   "NavbarLinks": {
     "home": "Acasa",
     "homeTitle": "Pagina principala",
-    "about": "Descriere",
-    "aboutTitle": "Pagina descriere",
-    "profile": "Profil",
-    "profileTitle": "Pagina de profil",
+    "product": "Produs",
+    "productTitle": "Pagina produs",
+    "joke": "Gluma random",
+    "jokeTitle": "Pagina gluma random",
     "switchLanguage": "Schimba limba"
 
   },
@@ -13,10 +13,10 @@
     "title": "Pagina principala",
     "description": "Bine ai venit pe site-ul nostru, locul unde calitatea întâlnește confortul! Descoperă o colecție atent selecționată de produse premium, create pentru a-ți îmbunătăți stilul de viață. Fie că cauți cele mai noi tendințe, articole esențiale sau produse unice, avem ceva special pentru tine. Cumpără cu încredere, știind că oferim calitate superioară, livrare rapidă și un serviciu clienți excelent. Cu plăți sigure și retururi fără bătăi de cap, experiența ta de cumpărături va fi simplă și plăcută. Explorează magazinul nostru și răsfață-te cu ceva special. Achiziția perfectă este la doar un click distanță!"
   },
-  "AboutPage": {
-    "title": "Descriere"
+  "ProductPage": {
+    "title": "Produs"
   },
-  "ProfilePage": {
-    "title": "Profil"
+  "JokePage": {
+    "title": "Gluma random"
   }
 }
