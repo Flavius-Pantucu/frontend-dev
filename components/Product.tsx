@@ -3,7 +3,6 @@ import Image from "next/image";
 const Product = async ({ productId }: { productId: string }) => {
   const data = await fetch(`https://fakestoreapi.com/products/${productId}`);
   const product = await data.json();
-  console.log(product);
 
   return (
     <div className="w-[512px] min-h-[768px] bg-white rounded-lg z-20 p-10">
