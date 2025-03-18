@@ -13,9 +13,9 @@ export const revalidate = 60;
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  const posts: Post[] = await fetch("https://api.vercel.app/blog").then((res) =>
-    res.json()
-  );
+  const data = await fetch("https://api.vercel.app/blog")
+  const posts: Post[] = await data.json();
+  
   return posts.map((post) => ({
     id: String(post.id),
   }));
@@ -28,9 +28,9 @@ export default async function Page({
 }) {
   const t = await getTranslations("BlogPage");
   const { id } = await params;
-  const post: Post = await fetch(`https://api.vercel.app/blog/${id}`).then(
-    (res) => res.json()
-  );
+  const data = await fetch(`https://api.vercel.app/blog/${id}`)
+  const post: Post = await data.json()
+  
   return (
     <div className="flex flex-col gap-y-20 w-full items-center justify-center">
       <h1 className="text-3xl font-bold mt-20">{t("title")}</h1>
@@ -45,3 +45,4 @@ export default async function Page({
     </div>
   );
 }
+  
